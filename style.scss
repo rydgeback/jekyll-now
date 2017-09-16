@@ -19,9 +19,9 @@ html {
 }
 
 body {
-	background: $nord0;
+	background: $nord1;
   font: 18px/1.4 $open-sans;
-  color: $white;
+  color: $nord4;
 }
 
 .container {
@@ -193,7 +193,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $white;
+  color: $nord4;
   cursor: pointer;
   font-family: $space-mono;
   font-weight: 300;
@@ -226,7 +226,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $white;
+    color: $nord4;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
