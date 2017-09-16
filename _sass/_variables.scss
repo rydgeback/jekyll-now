@@ -4,15 +4,24 @@
 //
 
 // Colors
-$blue: #4183C4;
+$blue: #4183C4;			//a colour (formerly blue)
+
+// Grays (original colours)
+//$black: #000;
+//$darkerGray: #222;
+//$darkGray: #333;
+//$gray: #666;
+//$lightGray: #eee;
+//$white: #fff;
 
 // Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #819ca9;
+$black: #eceff1;		//Selection colour (formerly black)
+$darkerGray: #222;		//Headings font colour (formerly darkerGray)
+$white: #ffffff;		//Body font colour (formerly darkGray)
+$gray: #eceff1;			//h4 font colour (formerly gray)
+$darkGray: #263238;		//Selection background colour (formerly lightGray)
+$blueGray: #819ca9;		//Background colour (formerly white)
+
 
 // Google Fonts
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Space+Mono');
