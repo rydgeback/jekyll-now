@@ -9,6 +9,13 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Space+Mono');
+
+// Font variables
+$space-mono: 'Space Mono', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -19,7 +26,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $open-sans;
   color: $darkGray;
 }
 
@@ -31,7 +38,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $space-mono;
   color: $darkerGray;
   font-weight: bold;
 
@@ -194,7 +201,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $space-mono;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -213,7 +220,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $space-mono;
   font-size: 18px;
 
   @include mobile {
