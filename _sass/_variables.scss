@@ -14,9 +14,12 @@ $gray: #666;
 $lightGray: #eee;
 $white: #fff;
 
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Space+Mono');
+
+// Font variables
+$space-mono: 'Space Mono', Arial, sans-serif;
+$open-sans: 'Open Sans', Arial, sans-serif;
 $georgia: Georgia, serif;
 
 // Mobile breakpoints
