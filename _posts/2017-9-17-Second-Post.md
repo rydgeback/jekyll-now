@@ -11,9 +11,12 @@ This post will also serve as a formatting test while I work out the kinks in my 
 
 <!--Here is a comment, hello!-->
 
+> This paragraph will serve as a quote. Being a blog, quoting will be a significant element as often I will take relevant portions of an article I read elsewhere followed by my thoughts on the article, and usually specifically the quoted section.
+
 And here is some CSS code:
 
-```html {
+```
+html {
   font-size: 100%;
 }
 
@@ -21,7 +24,4 @@ body {
 	background: $nord2;
   font: 18px/1.4 $open-sans;
   color: $nord4;
-}```
-
-
-> This paragraph will serve as a quote. Being a blog, quoting will be a significant element as often I will take relevant portions of an article I read elsewhere followed by my thoughts on the article, and usually specifically the quoted section.
+}
